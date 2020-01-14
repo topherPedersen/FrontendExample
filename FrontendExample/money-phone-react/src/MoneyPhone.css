@@ -1,0 +1,557 @@
+/* Nougat Fount Declaration moved, Bug Fix for iOS */
+/* Added back in for Android? */
+@font-face {
+  font-family: Nougat;
+  src: url('./fonts/Nougat-ExtraBlack.ttf');
+}
+
+    
+/*
+    @font-face {
+        font-family: 'Yantramanav', sans-serif;
+    }
+*/
+
+      @font-face {
+        font-family: Yantramanav-Black;
+        src: url('./fonts/Yantramanav-Black.ttf');
+      }
+
+      @font-face {
+        font-family: Yantramanav-Bold;
+        src: url('./fonts/Yantramanav-Bold.ttf');
+      }
+
+      @font-face {
+        font-family: Yantramanav-Light;
+        src: url('./fonts/Yantramanav-Light.ttf');
+      }
+
+      @font-face {
+        font-family: Yantramanav-Medium;
+        src: url('./fonts/Yantramanav-Medium.ttf');
+      }
+
+      @font-face {
+        font-family: Yantramanav-Regular;
+        src: url('./fonts/Yantramanav-Regular.ttf');
+      }
+
+      @font-face {
+        font-family: Yantramanav-Thin;
+        src: url('./fonts/Yantramanav-Thin.ttf');
+      }
+
+                                   
+      .navbar-title {
+        /*font-family: Nougat;*/
+    font-family: Nougat;
+    font-weight: 100;
+    font-size: 2em;
+    margin-top: 0.24em;
+    color: #656464;
+      }
+    
+    .navbar {
+      height: 3.5em;
+    }
+    
+    .money-font {
+      font-family: Nougat;
+    }
+    
+    .thin-font {
+      font-family: 'Yantramanav-Thin';
+    font-weight: 100;
+    }
+
+    .light-font {
+      font-family: 'Yantramanav-Thin';
+    font-weight: 300;
+    }
+    
+    .grey {
+    color: #656464;
+    }
+  
+    .bright-green {
+    color: green;
+    }
+    
+    .bottom-line-upper-hr {
+        padding-bottom: -7px;
+        margin-bottom: -7px;
+        margin-left: 6.5%;
+        margin-right: 6.5%;
+      }
+    
+      .bottom-line-text {
+        padding-top: 0px;
+        margin-top: 0px;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        font-size: 0.34em;
+    font-weight: 300;
+      }
+    
+      .bottom-line-lower-hr {
+        padding-top: -7px;
+        margin-top: -7px;
+        margin-left: 6.5%;
+        margin-right: 6.5%;
+      }
+   
+
+    .top-line-div {
+      width: 85%;
+    }
+
+    .top-line-hr {
+        /* padding-bottom: -7px; */
+        /* margin-bottom: -7px; */
+        margin-left: 6.5%;
+        margin-right: 6.5%;
+      }
+
+    .cashflow-h1 {
+      /* margin-top: 27.5%; */
+      /* margin-top: 22.5%; */
+      font-weight: 400;
+      font-size: 1.27em;
+      margin-bottom: 0px;
+    }
+
+    .cashflow-subheading {
+      margin-top: 0.5em;
+      /* margin-bottom: 7.5%; */
+    }
+
+    .history-h1 {
+      font-weight: 400;
+      font-size: 1.27em;
+      margin-bottom: 12.5%;
+    }
+
+    .categories-h1 {
+      font-weight: 400;
+      font-size: 1.27em;
+      margin-bottom: 0.4em;
+      display: inline-block !important;
+    }
+
+    .merchants-h1 {
+      margin-top: 15%;
+      font-weight: 400;
+      font-size: 1.27em;
+      margin-bottom: 0.4em;
+      display: inline-block !important;
+    }
+ 
+    .cashflow-h2 {
+    font-weight: 100;
+    margin-bottom: 12.5%;
+    font-size: 1.34em;
+    }
+    
+    .income {
+      font-size: 1.5em;
+      line-height: 2em;
+    }
+    
+    .expenses {
+      font-size: 1.5em;
+      line-height: 2em;
+    }
+    
+    .cashflow {
+      font-size: 1.5em;
+      line-height: 2em;
+    }
+
+    .cashflow-div {
+      width: 85%;
+    }
+
+    .cashflow-div-container-wrapper {
+      position: relative;
+      height: 85vh;
+      width: 100vw;
+      /* background-color: pink; */
+      /* color: orange; */
+    }
+
+    .cashflow-div-container {
+      width: 100vw;
+      /* background-color: magenta; */
+    }
+
+    .login-div-container-wrapper {
+      position: relative;
+      height: 85vh;
+      width: 100vw;
+      /* background-color: pink; */
+      /* color: orange; */
+    }
+
+    .login-div-container {
+      width: 100vw;
+      /* background-color: magenta; */
+    }
+
+    .signup-div-container-wrapper {
+      position: relative;
+      height: 85vh;
+      width: 100vw;
+      /* background-color: pink; */
+      /* color: orange; */
+    }
+
+    .signup-div-container {
+      width: 100vw;
+      /* background-color: magenta; */
+    }
+
+    .history-div-container-wrapper {
+      position: relative;
+      height: 85vh;
+      width: 100vw;
+      /* background-color: pink; */
+      /* color: orange; */
+    }
+
+    .history-div-container {
+      width: 100vw;
+      /* background-color: magenta; */
+    }
+
+    .categories-div-container-wrapper {
+      position: relative;
+      height: 85vh;
+      width: 100vw;
+      /* background-color: pink; */
+      /* color: orange; */
+    }
+
+    .categories-div-container {
+      width: 100vw;
+      /* background-color: magenta; */
+    }
+
+
+    /* Center Vertical Reference: https://www.w3schools.com/howto/howto_css_center-vertical.asp */
+    .vertical-center {
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+    }
+
+    .icon-mod {
+    transform:scale(1.25,1.25);
+    -ms-transform:scale(1.25,1.25); /* IE 9 */
+    -moz-transform:scale(1.25,1.25); /* Firefox */
+    -webkit-transform:scale(1.25,1.25); /* Safari and Chrome */
+    -o-transform:scale(1.25,1.25); /* Opera */
+    margin-left: -1.95em;
+    }
+
+    .main-content-div {
+      background-color: #FCFFFC; /* phantom green */
+      overflow-y:auto!important; /* make main div scrollable (added as bug fix) */
+    }
+
+    .bar-tab .tab-item.active, .bar-tab .tab-item {
+      color: #656464 !important; /* slightly darker shade of grey from the ratchet default */
+    }
+
+    .bar-tab .tab-item.active, .bar-tab .tab-item:active {
+      color: #23e000 !important; /* darkened shade of neon green */
+    }
+
+.hamburger-btn {
+  border: none;
+  padding-top: 0.25em;
+  margin-top: 0.25em;
+  /* REMOVE BLUE GLOW FROM ON BUTTON CLICK */
+  /* REFERENCE: https://bit.ly/2Yc95wR */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  /* END REMOVE BLUE GLOW FROM ON BUTTON CLICK */
+
+}
+
+.hamburger-btn:focus {
+    outline: none;
+    background-color: white!important;
+
+  /* REMOVE BLUE GLOW FROM ON BUTTON CLICK */
+  /* REFERENCE: https://bit.ly/2Yc95wR */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  /* END REMOVE BLUE GLOW FROM ON BUTTON CLICK */
+}
+
+.hamburger-btn:active {
+    outline: none;
+    background-color: white!important;
+
+  /* REMOVE BLUE GLOW FROM ON BUTTON CLICK */
+  /* REFERENCE: https://bit.ly/2Yc95wR */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  /* END REMOVE BLUE GLOW FROM ON BUTTON CLICK */
+}
+
+.btn:focus {
+    outline: none;
+    background-color: white!important;
+
+  /* REMOVE BLUE GLOW FROM ON BUTTON CLICK */
+  /* REFERENCE: https://bit.ly/2Yc95wR */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  /* END REMOVE BLUE GLOW FROM ON BUTTON CLICK */
+}
+
+.btn:active {
+    outline: none;
+    background-color: white!important;
+
+  /* REMOVE BLUE GLOW FROM ON BUTTON CLICK */
+  /* REFERENCE: https://bit.ly/2Yc95wR */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  /* END REMOVE BLUE GLOW FROM ON BUTTON CLICK */
+}
+
+.hamburger-icon {
+  padding-top: 0.15em;
+  margin-top: 0.15em;
+
+  /* REMOVE BLUE GLOW FROM ON BUTTON CLICK */
+  /* REFERENCE: https://bit.ly/2Yc95wR */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  /* END REMOVE BLUE GLOW FROM ON BUTTON CLICK */
+
+}
+
+.hamburger-icon:focus {
+  padding-top: 0.15em;
+  margin-top: 0.15em;
+  background-color: white!important;
+
+  /* REMOVE BLUE GLOW FROM ON BUTTON CLICK */
+  /* REFERENCE: https://bit.ly/2Yc95wR */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  /* END REMOVE BLUE GLOW FROM ON BUTTON CLICK */
+
+}
+
+.hamburger-icon:active {
+  padding-top: 0.15em;
+  margin-top: 0.15em;
+  background-color: white!important;
+
+  /* REMOVE BLUE GLOW FROM ON BUTTON CLICK */
+  /* REFERENCE: https://bit.ly/2Yc95wR */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  /* END REMOVE BLUE GLOW FROM ON BUTTON CLICK */
+}
+
+/* REFERENCE (Horizontally Center Fixed Position Floating Button) */
+/* https://salomvary.com/position-fixed-horizontally-centered.html */
+/* bottom: 10% */
+.link-account-btn-div-container {
+  /* fixed position a zero-height full width container */
+  position: fixed;
+  /* top: 0; */
+  left: 0;
+  right: 0;
+  height: 0;
+  bottom: 25%;
+  /* center all inline content */
+  text-align: center;
+}
+.link-account-btn-div {
+  /* make the block inline */
+  display: inline-block;
+  /* reset container's center alignment */
+  text-align: left;
+}
+
+.link-account-btn {
+    background-color: #23e000; /* darkened shade of neon green */
+    color: white; /* text color white */
+   -webkit-transition-duration: 0.4s; /* Safari */
+   transition-duration: 0.4s;
+   visibility: visible;
+/* .btn class styling from ratchet.css */
+  position: relative;
+  display: inline-block;
+  padding: 6px 8px 7px;
+  margin-bottom: 0;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: top;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  /* end ratchet.css .btn styling */
+}
+
+.inline-block: {
+  display: inline-block !important;
+}
+
+.category-select {
+  width: 55%;
+  margin-top: 0px;
+  padding-top: 0px;
+  text-align: center;
+  text-align-last: center;
+}
+
+.merchant-select {
+  width: 55%;
+  margin-top: 0px;
+  padding-top: 0px;
+  text-align: center;
+  text-align-last: center;
+}
+
+.show-dropdown-arrow {
+  -webkit-appearance: menulist !important;
+}
+
+option {
+  text-align: center;
+}
+
+.merchant-table {
+  font-size: 0.5em;
+  
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.login-form {
+  width: 90%;
+}
+
+.login-btn {
+  /* Ratchet .btn Styling */
+  position: relative;
+  display: inline-block;
+  padding: 6px 8px 7px;
+  margin-bottom: 0;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1;
+  color: #333;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: top;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  /* Ratchet .btn-block Styling */
+  display: block;
+  width: 100%;
+  padding: 15px 0;
+  margin-bottom: 10px;
+  font-size: 18px;
+  /* Custom Button Styling */
+  background-color: #656464; /* dark grey */
+  color: white; /* text color */
+}
+
+.skip-btn {
+  /* Ratchet .btn Styling */
+  position: relative;
+  display: inline-block;
+  padding: 6px 8px 7px;
+  margin-bottom: 0;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1;
+  color: #656464; /* text color -> dark grey*/
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: top;
+  cursor: pointer;
+  background-color: #e0fc96; /* moolabeast green */
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  /* Ratchet .btn-block Styling */
+  display: block;
+  width: 100%;
+  padding: 15px 0;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.signup-form {
+  width: 90%;
+}
+
+.signup-btn {
+  background-color: #656464; /* dark grey */
+  color: white; /* text color */
+}
